@@ -9,4 +9,7 @@ class Hero
     HEROES << self
   end
   
+  def self.all
+    HEROES
+  
 end
