@@ -3,8 +3,8 @@ class Team
   TEAMS = []
   
   def initialize(params)
-    @name = name
-    @motto = motto 
+    @name = params[:name]
+    @motto = params[:motto] 
     TEAMS << self
   end
   
