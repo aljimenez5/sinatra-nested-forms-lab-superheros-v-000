@@ -3,7 +3,9 @@ class Hero
   HEROES = []
   
   def initialize(params)
-    
+    @name = name
+    @power = power
+    @bio = bio
   end
   
 end
