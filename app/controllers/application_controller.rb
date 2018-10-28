@@ -10,7 +10,7 @@ class App < Sinatra::Base
   
   post '/teams' do
     binding.pry
-    @team = Team.new(name: params[:name], motto: params[:motto]
+    @team = Team.new(name: params[:name], motto: params[:motto])
     erb :team  
   end
 end
