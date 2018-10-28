@@ -1,4 +1,7 @@
 class Hero 
   
+  HEROES = []
+  
+  
   
 end
