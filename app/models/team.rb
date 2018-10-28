@@ -1,5 +1,4 @@
 class Team 
   
-  TEAMS = []
   
 end
